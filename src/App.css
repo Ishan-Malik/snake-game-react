@@ -1,0 +1,23 @@
+.snake-box{
+border:2px solid black;
+height: 500px;
+width: 500px;
+margin: 50px auto;
+position: relative;
+}
+.snake-dot{
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background-color: black;
+  border: 1px solid wheat;
+  z-index: 2;
+}
+.snake-food{
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background-color: rgb(236, 61, 61);
+  border: 1px solid wheat;
+  z-index: 1;
+}
